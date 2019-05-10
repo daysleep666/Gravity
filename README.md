@@ -4,7 +4,7 @@
 
 ---
 
-If there's any issue you are facing in setting up this theme I'm there for you. Just create an issue in this repository (<http://github.com/hemangsk/Gravity>), (<https://help.github.com/articles/creating-an-issue/>) and I'll get back to you asap.
+If there's any issue you are facing in setting up this theme I'm there for you. Just create an issue in this repository (<http://github.com/daysleep666/Gravity>), (<https://help.github.com/articles/creating-an-issue/>) and I'll get back to you asap.
 
 ![Welcome to Gravity](https://user-images.githubusercontent.com/13018570/27043040-778d80cc-4fb6-11e7-8619-de4be626be67.png)
 <img src="http://i.imgur.com/cPwoX3E.png"/>
@@ -41,7 +41,7 @@ $ gem install jekyll-paginate
 # USAGE
 
 Once you have the required gems, you can go ahead and clone the
-[Gravity repository](https://github.com/hemangsk/Gravity) or [download](https://github.com/hemangsk/Gravity/archive/master.zip)
+[Gravity repository](https://github.com/daysleep666/Gravity) or [download](https://github.com/daysleep666/Gravity/archive/master.zip)
 a zip of the master branch.
 
 Run :
