@@ -24,13 +24,13 @@
 
 <script>
     var gitalk = new Gitalk({
-      clientID: '{{ site.gitalk_clientID }}',
-      clientSecret: '{{ site.gitalk_Secret }}',
-      repo: '{{ site.gitalk_repo }}',
-      owner: '{{ site.gitalk_owner }}',
-      admin: '{{ site.gitalk_admin }}',
+      clientID: '{{ site.comments.gitalk_clientID }}',
+      clientSecret: '{{ site.comments.gitalk_Secret }}',
+      repo: '{{ site.comments.gitalk_repo }}',
+      owner: '{{ site.comments.gitalk_owner }}',
+      admin: '{{ site.comments.gitalk_admin }}',
       id: location.pathname,     
-      distractionFreeMode: '{{ site.distractionFreeMode }}'  
+      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
     })
     gitalk.render('gitalk_container')
   </script>
