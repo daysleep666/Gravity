@@ -2,10 +2,7 @@
 layout: post
 title:  "mysql-buffer pool"
 date:   2019-4-29 22:00:00
-categories: mysql
-tags: mysql
-excerpt: mysql的buffer pool
-mathjax: true
+categories: 数据库
 ---
 
 # 缓冲池

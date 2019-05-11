@@ -2,10 +2,7 @@
 layout: post
 title:  "gc算法-mark-and-sweep"
 date:   2019-4-26 22:00:00
-categories: gc,golang
-tags: gc
-excerpt: gc
-mathjax: true
+categories: 基础知识
 ---
 
 
