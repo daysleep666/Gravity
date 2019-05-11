@@ -10,12 +10,6 @@ tagline: "   在开发道路上前行。"
 
 <div class="about">
 
-  <div class="about-left">
-<img itemprop="image" class="img-rounded about_perfil" src="https://github.com/daysleep666/mine/blob/master/assets/img/sharding-gerenciamento-usuarios/headimg.jpeg?raw=true" alt="My profile">
-  <div class="about-right">
-
-  </div>
-  </div>
 
 
 </div>
