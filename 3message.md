@@ -1,6 +1,6 @@
 ---
 layout: page
-title : 
+title : .
 permalink: /msg/
 
 tagline: "路过这里，留下一句，可好？"
