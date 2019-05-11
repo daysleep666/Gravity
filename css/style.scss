@@ -1,3 +1,6 @@
+----
+-# Only the main Sass file needs front matter (the dashes are enough)
+----
 
 @charset "utf-8";
 
@@ -669,8 +672,7 @@ pre {
 }
 
 .about-left {
-  width: 800px;
-  height: 400px;
+  height: 700px;
   background-color: #2fa8ec;
 }
 
