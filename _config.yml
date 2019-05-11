@@ -15,6 +15,7 @@ twitter_username: hemang_kumar
 github_username:  daysleep666
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
+baidu-analysis: 4aed2b02959a2886da710760be48b819   // 百度访问统计
 
 plugins: [jekyll-paginate, kramdown]
 # Build settings
