@@ -665,3 +665,19 @@ pre {
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+
+
+.about-left {
+  width: 220px;
+  height: 100%;
+  background-color: #2fa8ec;
+}
+.about-right {
+  position: absolute;
+  top: 0;
+bottom: 0;
+  left: 220px;
+  right: 0;    
+  background-color: yellow;
+}
