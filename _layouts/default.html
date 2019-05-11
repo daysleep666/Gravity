@@ -23,14 +23,14 @@
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 
 <script>
-    var gitalk = new Gitalk({
-      clientID: '{{ site.comments.gitalk_clientID }}',
-      clientSecret: '{{ site.comments.gitalk_Secret }}',
-      repo: '{{ site.comments.gitalk_repo }}',
-      owner: '{{ site.comments.gitalk_owner }}',
-      admin: '{{ site.comments.gitalk_admin }}',
+   var gitalk = new Gitalk({
+      clientID: '1135a374faa2c7622c47',
+      clientSecret: '6c31d1ee458cb3886de838cde94a7a9d768d739a',
+      repo: 'daysleep666.github.io',
+      owner: 'daysleep666',
+      admin: 'daysleep666',
       id: location.pathname,     
-      distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  
+      distractionFreeMode: 'false'  
     })
     gitalk.render('gitalk_container')
   </script>
