@@ -377,9 +377,9 @@ pre {
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
-      margin-bottom: 30px;
     }
     margin-left: 100px;
+    margin-bottom: 30px;
   }
   @include media-query($on-palm) {
     position: absolute;
