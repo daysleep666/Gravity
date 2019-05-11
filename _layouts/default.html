@@ -24,13 +24,13 @@
 
 <script>
     var gitalk = new Gitalk({
-      clientID: '输入clientid表达式',
-      clientSecret: '输入secret表达式',
-      repo: '输入gitalk repo表达式',
-      owner: '输入gitalk owner表达式',
-      admin: '输入gitalk admin表达式',
+      clientID: '{{ site.gitalk_clientID }}',
+      clientSecret: '{{ site.gitalk_Secret }}',
+      repo: '{{ site.gitalk_repo }}',
+      owner: '{{ site.gitalk_owner }}',
+      admin: '{{ site.gitalk_admin }}',
       id: location.pathname,     
-      distractionFreeMode: '输入distractionFreeMode表达式'  
+      distractionFreeMode: '{{ site.distractionFreeMode }}'  
     })
     gitalk.render('gitalk_container')
   </script>
