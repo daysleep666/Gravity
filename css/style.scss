@@ -378,6 +378,7 @@ pre {
     &:not(:last-child) {
       margin-right: 20px;
     }
+    text-align: center;
   }
   @include media-query($on-palm) {
     position: absolute;
