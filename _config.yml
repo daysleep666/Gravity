@@ -8,7 +8,7 @@
 # Site settings
 title: 求道之路
 email: 576129407@qq.com
-description: 你现在怎么做，将来就怎么活。
+description: 你现在怎么做，将来就怎么活。!
 baseurl: "/Gravity" # the subpath of your site, e.g. /blog
 url: "https://daysleep666.github.io" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
@@ -20,3 +20,16 @@ baidu-analysis: "4aed2b02959a2886da710760be48b819"   #百度访问统计
 plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
+
+#comments
+comments: true
+
+comments:
+  gitalk: true
+  gitalk_clientID: '1135a374faa2c7622c47'
+  gitalk_Secret: '6c31d1ee458cb3886de838cde94a7a9d768d739a'
+  gitalk_repo: 'daysleep666.github.io'
+  gitalk_owner: 'daysleep666'
+  gitalk_admin: 'daysleep666'
+  distractionFreeMode: false
+  
