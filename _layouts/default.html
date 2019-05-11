@@ -19,4 +19,20 @@
 
   </body>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+<script>
+    var gitalk = new Gitalk({
+      clientID: '输入clientid表达式',
+      clientSecret: '输入secret表达式',
+      repo: '输入gitalk repo表达式',
+      owner: '输入gitalk owner表达式',
+      admin: '输入gitalk admin表达式',
+      id: location.pathname,     
+      distractionFreeMode: '输入distractionFreeMode表达式'  
+    })
+    gitalk.render('gitalk_container')
+  </script>
+
 </html>
