@@ -3,14 +3,13 @@ layout: page
 title : 留言
 permalink: /msg/
 
-tagline: "Loved it? Download Gravity"
+tagline: "路过这里，不如留下一句。"
 ---
 
 <br>
 
 <div class="msg">
 
-  <center>欢迎留言给我!</center>
 
 </div>
   
