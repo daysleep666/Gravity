@@ -8,14 +8,14 @@
 # Site settings
 title: 求道之路
 email: 576129407@qq.com
-description: 你现在怎么做，将来就怎么活。
+description: 你现在怎么做，将来就怎么活。.
 baseurl: "/Gravity" # the subpath of your site, e.g. /blog
 url: "https://daysleep666.github.io" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username:  daysleep666
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
-baidu-analysis: 4aed2b02959a2886da710760be48b819   #百度访问统计
+baidu-analysis: "4aed2b02959a2886da710760be48b819"   #百度访问统计
 
 plugins: [jekyll-paginate, kramdown]
 # Build settings
