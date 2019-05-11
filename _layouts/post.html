@@ -2,7 +2,7 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
+ 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
   <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
@@ -31,6 +31,13 @@ layout: default
         {{page.next.title}} &raquo;
     </a>
   {% endif %}
+
+
+  <section class="post-footer-item comment">
+      <div id="disqus_thread"></div> //如果你的主题自带disqus，请省略该行，直接把下面这一行的内容添加进去。
+      <div id="gitalk_container"></div>
+  </section>
+
   </footer>
 
 
