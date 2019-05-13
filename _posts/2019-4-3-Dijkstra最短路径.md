@@ -16,7 +16,7 @@ Dijkstra最短路径
 
 举一个🌰
 
-![avatar](https://raw.githubusercontent.com/daysleep666/mine/master/src/img/article/dijkstra.jpg)
+![avatar](https://raw.githubusercontent.com/daysleep666/blog/master/src/img/article/dijkstra.jpg)
 
 
 求从0点开始到其他点的最短路径

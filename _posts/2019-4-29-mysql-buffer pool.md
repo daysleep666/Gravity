@@ -17,7 +17,7 @@ categories: 数据库
 缓冲池使用的算法是变种的LRU算法。插入的位置不是头部,而是大概5/8的位置,称此位置为midpoint。
 插入的时候先将缓冲池中最近最少使用的一页删掉,然后将新的一页插入到midpoint。
 
-![avatar](https://raw.githubusercontent.com/daysleep666/mine/master/src/img/article/bufferpool.jpeg)
+![avatar](https://raw.githubusercontent.com/daysleep666/blog/master/src/img/article/bufferpool.jpeg)
 
 当数据被插入到缓冲池中的时候,不插入头部而是插入到midpoint位置的目的是避免真正的热点数据被从缓冲池中删掉。
 > 如果插入到缓冲池头部，当Select整个表的时候会将那些并不经常使用的数据插入到缓冲池中，将真正的热点数据挤出缓存池。
