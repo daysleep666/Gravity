@@ -25,6 +25,7 @@ categories: 数据库
 ```
 
 - 删除索引
+  
 ```
     ALTER TABLE tableName DROP PRIMARY KEY;
 ```
@@ -40,6 +41,7 @@ categories: 数据库
 2. 可以为NULL
 
 - 创建索引
+  
 ```
     CREATE INDEX indexName ON tableName(columnName);
 ```
@@ -61,6 +63,7 @@ categories: 数据库
 2. 可以为NULL，但是这时候就可以插入多个NULL值了。
 
 - 创建索引
+  
 ```
     CREATE UNIQUE INDEX indexName ON tableName(columnName);
 ```
@@ -77,6 +80,7 @@ categories: 数据库
 ```
 
 - 删除索引
+  
 ```
     DROP INDEX indexName ON tableName;
 ```
@@ -86,6 +90,7 @@ categories: 数据库
 ```
 
 - 查询索引
+  
 ```
     SHOW INDEX FROM tableName;
 ````
