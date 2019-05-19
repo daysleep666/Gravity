@@ -7,7 +7,7 @@ categories: 数据库
 
 索引树使用的数据结构是B+树
 
-![avatar](https://raw.githubusercontent.com/daysleep666/blog/master/src/img/article/indextree.jpeg)
+![avatar](https://raw.githubusercontent.com/daysleep666/blog/master/src/img/article/indextree.jpg)
 
 非叶子节点存储的是什么
 
